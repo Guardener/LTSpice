@@ -1,2 +1,4 @@
 # LTSpice
-Group Bulk Cap Simulation
+Group Homework Assignment: Bulk Cap Simulation
+
+Also scratch space for all SPICE simulations for the Guardener
