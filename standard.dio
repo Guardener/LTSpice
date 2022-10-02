@@ -63,7 +63,7 @@
 .model B550C D(Is=20u Rs=25m Cjo=300p N=1.7 Ikf=10 Isr=100u Nr=2 Iave=5 Vpk=50 mfg=Diodes_Inc. type=Schottky)
 .model B560C D(Is=20u Rs=25m Cjo=300p N=1.7 Ikf=10 Isr=100u Nr=2 Iave=5 Vpk=60 mfg=Diodes_Inc. type=Schottky)
 .model 10MQ060N D(Is=.1u Rs=.14 Cjo=102p N=1 M=.3 Eg=.69 Xti=2 Iave=1.5 Vpk=60 mfg=International_Rectifier type=Schottky)
-.model ZLLS500TA D(Is=610n Rs=0.27 N=1.03 Eg=0.63 Xti=2 Cjo=71p Vj=0.6 M=0.36 Iave=0.70 Vpk=40.0 Isr=1.4u Nr=2 Ikf=0.32 Bv=42 Ibv=200u Tt=3n Trs1=4M mfg=DiodesInc type=Schottky)
+.model ZLLS500TA D(Is=610n Rs=0.27 N=1.03 Eg=0.63 Xti=2 Cjo=71p Vj=0.6 M=0.36 Iave=0.70 Vpk=40.0 Isr=1.4u Nr=2 Ikf=0.32 Bv=42 Ibv=200u Tt=3n Trs1=4M mfg=Diodes_Inc. type=Schottky)
 .model ZLLS1000 D(Is=750n Rs=.13 N=1 Cjo=76p M=.3 Eg=.69 Iave=1 Vpk=40 mfg=Zetex type=Schottky)
 .model ZLLS2000 D(Is=2u Rs=.06 N=1 Cjo=182p M=.3 Eg=.69 Iave=1 Vpk=40 mfg=Zetex type=Schottky)
 .model PDS5100 D(Is=49.0u Rs=7.63m BV=100 IBV=200u Cjo=375p M=0.333 N=1.84 TT=21.6n Iave=5 Vpk=100 mfg=Diodes_Inc. type=Schottky)
