@@ -1,0 +1,24 @@
+* E:\proj\Guardener\LTSpice\3652_PowerCircuit.asc
+XU1 IN IN IN NC_01 NC_02 N004 OUT NC_03 OUT N003 N001 N002 0 LT3652
+V1 IN 0 5.5
+L1 N002 N003 68µ Rpar=10K
+R1 N003 OUT 0.22
+C2 OUT 0 10µ
+C5 N002 N001 1µ
+C1 IN 0 10µ
+C6 N004 0 1µ
+D1 0 N002 ZLLS500TA
+D2 OUT N001 DFLS160
+C3 OUT 0 47µ V=20 Irms=2 Rser=0.045 Lser=0 mfg="KEMET" pn="T521W476M020ATE045" type="Tantalum"
+C4 OUT 0 47µ V=20 Irms=2 Rser=0.045 Lser=0 mfg="KEMET" pn="T521W476M020ATE045" type="Tantalum"
+I1 OUT 0 PULSE({em4i} 7m {startDel} {rT} {rT} {activeLightTime} 20m 3)
+I2 OUT 0 PULSE({em4i} 2m 8.0256m {rT} {rT} 10m 20m 3)
+.model D D
+.lib C:\Users\Amber\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 80m 0m
+.param startDel=8m em4i=300u em2i=1.5m em0i=2.8m wakeEM2=3u wakeEM4=160u wakeLightTime=25m wakeTempTime=2m activeTempTime=8m rT=10n
+.param wakeUpTime 27m
+.param activeLightTime 25.6u
+.lib LT3652.sub
+.backanno
+.end
