@@ -2,3 +2,8 @@
 3652_PowerCircuit.net
 3652_PowerCircuit.op.raw
 3652_PowerCircuit.raw
+*.raw
+*.log
+*.op.raw
+*.net
+Draft1.asc
